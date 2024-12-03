@@ -1,0 +1,19 @@
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/summernote/dist/summernote-lite.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/summernote/dist/summernote-lite.min.js"></script>
+
+<!-- Textarea for Summernote -->
+<textarea id="summernote"></textarea>
+
+<!-- Initialize Summernote -->
+<script>
+    $(document).ready(function() {
+        $('#summernote').summernote({
+            height: 300, // Editor height
+            // toolbar: [
+            //     ['style', ['bold', 'italic']], // Bold and Italic
+            //     ['para', ['ul', 'ol']], // Unordered List and Ordered List
+            // ]
+        });
+    });
+</script>
